@@ -19,7 +19,7 @@ public class Mover : MonoBehaviour
     }
 
     //Movement function using the arrow keys
-    private void MovePlayer()
+    void MovePlayer()
     {
         Vector3 move = new Vector3(0, 0, 0);
         if (Input.GetKey(KeyCode.UpArrow))
