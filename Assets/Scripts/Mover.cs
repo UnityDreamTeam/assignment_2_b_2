@@ -17,11 +17,11 @@ public class Mover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movePlayer();
+        MovePlayer();
     }
 
     //Movement function using the arrow keys
-    private void movePlayer()
+    private void MovePlayer()
     {
         Vector3 move = new Vector3(0, 0, 0);
         if (Input.GetKey(KeyCode.UpArrow))
