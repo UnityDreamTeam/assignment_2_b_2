@@ -30,7 +30,6 @@ public class Mover : MonoBehaviour
         }
         else if ((Input.GetKey(KeyCode.DownArrow)))
         {
-            transform.position -= new Vector3(0, step, 0);
             move.y = -step;
         }
         else if ((Input.GetKey(KeyCode.RightArrow)))
